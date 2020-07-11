@@ -4,8 +4,8 @@ function! pyank#exec()
         let p = popup[0]
         let winID = winbufnr(p)
         let pBuffer = getbufline(winID,1,"$")
-        if len(ps)  != 0
-            call setreg("@",pBuffer,"b")
+        if len(pBuffer)  != 0
+            call setreg(v:register,pBuffer,"b")
         endif
     endif
 endfunction
