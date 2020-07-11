@@ -6,5 +6,5 @@ endif
 
 let g:loaded_pyank = 1
 
-command! -nargs=0 PopUpYank call pyank#exec()
-nnoremap <silent> <Plug>(PopUpYank) :<C-u>PopUpYank<CR>
+command! -nargs=0 PopYank call popyank#exec()
+nnoremap <silent> <Plug>(PopYank) :<C-u>PopYank<CR>

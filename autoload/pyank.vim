@@ -1,4 +1,4 @@
-function! pyank#exec()
+function! popyank#exec()
     let popup = popup_list()
     if len(popup)  != 0
         let p = popup[0]
