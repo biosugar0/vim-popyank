@@ -11,5 +11,5 @@ This command yank text of popup window.
 ### Mapping example
 
 ```
-nmap <silent> <leader>y <Plug>(PopYank)
+nmap <leader>y <Plug>(PopYank)
 ```
