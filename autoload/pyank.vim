@@ -5,7 +5,7 @@ function! pyank#exec()
         let winID = winbufnr(p)
         let ps = getbufline(winID,1,"$")
         if len(ps)  != 0
-            call setreg("*",ps,"b")
+            call setreg("@",ps,"b")
         endif
     endif
 endfunction
