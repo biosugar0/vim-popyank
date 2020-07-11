@@ -4,6 +4,12 @@ Vim plugin for yank text of popup window.
 
 ## Usage
 
-### :Pyank
+### :PopUpYank
 
 This command yank text of popup window.
+
+### Mapping example
+
+```
+nmap <silent> <leader>y <Plug>(PopUpYank)
+```
