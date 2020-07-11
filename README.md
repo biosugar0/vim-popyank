@@ -1,12 +1,12 @@
 # vim-popyank
 
-Vim plugin for yank text of popup window.
+Vim plugin for yank popup window text.
 
 ## Usage
 
 ### :PopYank
 
-This command yank text of popup window.
+This command yank popup window text.
 
 ### Mapping example
 
