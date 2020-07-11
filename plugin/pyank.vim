@@ -7,4 +7,4 @@ endif
 let g:loaded_pyank = 1
 
 command! -nargs=0 Pyank call pyank#exec()
-nnoremap <silent> <Plug>(Pyank) :<C-u>Pyank<CR>
+nnoremap <silent> <Plug>(pyank) :<C-u>Pyank<CR>
