@@ -1,4 +1,4 @@
-function! popyank#get()
+function! popyank#pop()
     let popup = popup_list()
     if len(popup)  == 0
         return ""
