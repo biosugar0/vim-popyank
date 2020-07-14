@@ -13,3 +13,8 @@ This command yank popup window text.
 ```
 nmap <leader>y <Plug>(PopYank)
 ```
+
+### functions
+
+* `popyank#pop()` : get popup window text and close popup window.
+* `popyank#exec()`: yank popup window text
